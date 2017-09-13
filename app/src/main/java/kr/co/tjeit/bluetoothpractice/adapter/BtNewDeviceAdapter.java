@@ -17,12 +17,12 @@ import kr.co.tjeit.bluetoothpractice.data.BTDevice;
  * Created by the on 2017-09-13.
  */
 
-public class BTAdapter extends ArrayAdapter<BTDevice> {
+public class BtNewDeviceAdapter extends ArrayAdapter<BTDevice> {
     Context mContext;
     List<BTDevice> mList;
     LayoutInflater inf;
 
-    public BTAdapter(Context context, List<BTDevice> list) {
+    public BtNewDeviceAdapter(Context context, List<BTDevice> list) {
         super(context, R.layout.btdevice_list_item, list);
 
         mContext = context;
