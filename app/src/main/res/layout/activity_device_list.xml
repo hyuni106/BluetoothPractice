@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="kr.co.tjeit.bluetoothpractice.DeviceListActivity">
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기기 탐색"/>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/newDeviceListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <ListView
+        android:id="@+id/pairedDeviceListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
